@@ -1,0 +1,62 @@
+header {
+  border: 1px solid dodgerblue;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline;
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  padding-right: 2em;
+}
+
+.disabled {
+  color: grey;
+}
+
+a > .disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.parent div div:nth-of-type(1) {
+  color: red;
+}
+
+.parent div div:nth-of-type(2) {
+  color: blue;
+}
+
+.parent div div:nth-of-type(1) + h4 {
+  background-color: red;
+}
+
+.parent div div:nth-of-type(2) + h4 {
+  background-color: blue;
+}
+
+.parent > div:first-of-type > p:first-of-type {
+    color: red;
+}
+
+.grandparent h4 {
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.promo {
+  color: gold;
+  font-weight: bold;
+}
+
+footer input {
+  line-height: 25px;
+}
+
+
